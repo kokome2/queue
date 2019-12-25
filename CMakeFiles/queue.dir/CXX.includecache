@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gimmyeongjae/github_repository/stl_queue/main.cpp
+iostream
+-
+queue.h
+/Users/gimmyeongjae/github_repository/stl_queue/queue.h
+
+/Users/gimmyeongjae/github_repository/stl_queue/queue.h
+queue
+-
+algorithm
+-
+mutex
+-
+
